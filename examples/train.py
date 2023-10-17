@@ -8,8 +8,7 @@ from absl import app, flags
 from ml_collections import config_flags
 from tensorboardX import SummaryWriter
 
-from jaxrl.agents import (AWACLearner, DDPGLearner, REDQLearner, SACLearner,
-                          SACV1Learner)
+from jaxrl.agents import SACLearner
 from jaxrl.datasets import ReplayBuffer
 from jaxrl.evaluation import evaluate
 from jaxrl.utils import make_env
