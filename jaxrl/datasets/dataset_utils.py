@@ -2,8 +2,8 @@ from typing import Tuple
 
 import gym
 
-from jaxrl.datasets.awac_dataset import AWACDataset
-from jaxrl.datasets.d4rl_dataset import D4RLDataset
+# from jaxrl.datasets.awac_dataset import AWACDataset
+# from jaxrl.datasets.d4rl_dataset import D4RLDataset
 from jaxrl.datasets.dataset import Dataset
 from jaxrl.datasets.rl_unplugged_dataset import RLUnpluggedDataset
 from jaxrl.utils import make_env
